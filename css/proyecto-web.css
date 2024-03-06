@@ -1,5 +1,5 @@
 #Inicio {
-    background-image: url(/img/362184-admin.jpg);
+    background-image: url(../img/362184-admin.jpg);
     background-size: none;
     margin: 0;
 	padding: 0;
@@ -105,7 +105,7 @@ nav ul li a:hover {
  * Pag. Nosotros
  */
 #nosotros {
-    background-image: url(/img/Captura\ de\ pantalla\ \(130\).png);
+    background-image: url(../img/Captura\ de\ pantalla\ \(130\).png);
     background-size: none;
     margin: 0;
 	padding: 0;
@@ -137,13 +137,13 @@ p{
     width: 50%;
 }
 #servicios{
-    background-image: url(/img/bosquess.png);
+    background-image: url(../img/bosquess.png);
 }
 /*
  * Pag. Contacto
  */
 #contacto{
-    background-image: url(/img/boss-2.png);
+    background-image: url(../img/boss-2.png);
 }
 #contenedor-2 {
     text-align: center;
