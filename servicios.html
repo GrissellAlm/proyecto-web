@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVida</title>
+    <link rel="stylesheet" href="css/proyecto-web.css">
+    <link rel="icon" href="img/vecteezy_simplicidad-monstera-planta-dibujo-a-mano-alzada-diseno-plano_11298957.png" type="icono">
+</head>
+<body id="servicios">    
+    <!-- Encabezado--->
+    <header id="main-header">	
+		<a id="logo-header" href="index.html">
+			<span class="site-name"> EcoVida <img src="img/vecteezy_simplicidad-monstera-planta-dibujo-a-mano-alzada-diseno-plano_11298957.png" width="50px" height="50px"></span>
+		</a> 
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="nosotros.html">Nosotros</a></li>
+				<li><a href="#">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+			</ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <img src = "img/gente.jpg" class = "slider_img1" />
+    <img src = "img/mucha-gente.jpg" class = "slider_img1" />
+    <img src = "img/planta.jpg" class = "slider_img1" />
+    <img src = "img/tree.gif" class = "slider_img1" />
+    <img src = "img/siembra_arboles_Lorenzo_LaCalera (44 de 72).jpg" class = "slider_img1" />
+    <script class="img-responsive1">
+        var imagenes = document.querySelectorAll(".slider_img1"),
+        total = imagenes.length,
+        contador = 0,
+        slider = function(){
+            imagenes[contador].style.opacity = 0;
+            contador = contador == total - 1 ? 0 : ++contador;
+            imagenes[contador].style.opacity = 1;
+        };
+        imagenes[contador].style.opacity = 1;
+        setInterval(slider, 1000);
+    </script>
+    <div id="proyecto">
+         <h2 style="color: rgb(56, 164, 56);">Raices Verdes</h2>
+         <p>Objetivo:
+         <br>Fomentar la plantación de árboles y la conciencia sobre la importancia de los bosques 
+         <br>en la lucha contra el cambio climático y la conservación de la biodiversidad.
+         <br>
+         <br>Mensaje Clave:
+         <br>“¡Cultiva tu futuro! Planta un árbol hoy y cosecha un mundo más verde mañana.”<br>
+         <br>Acciones Propuestas:
+         <br>Plantación Masiva de Árboles:
+         <br>Invitar a comunidades, escuelas y empresas a unirse a jornadas de reforestación. 
+         <br>Cada árbol plantado es un paso hacia un planeta más saludable.<br>
+         <br>Educación Ambiental:
+         <br>Organizar charlas, talleres y actividades en escuelas y centros comunitarios 
+         <br>para enseñar a niños y adultos sobre la importancia de los árboles y cómo cuidarlos.<br>
+         <br>Adopta un Árbol:
+         <br>Crear un programa donde las personas puedan “adoptar” un árbol. Proporcionar 
+         <br>información sobre su especie, ubicación y cuidados necesarios.<br>
+         <br>Día del Árbol:
+         Celebrar un día especial dedicado a la plantación de árboles. Invita a la comunidad a participar
+         <br> y crea un ambiente festivo con música, comida y actividades relacionadas con la naturaleza.<br>
+         <br>Redes Sociales y Desafíos Virales:
+         <br>Lanzar un hashtag como #RaícesVerdes y anima a las personas a compartir fotos de los árboles que han plantado.
+         <br> Crea desafíos para que más personas se sumen.
+         <br>Impacto Esperado:
+         <br>1-Mayor conciencia sobre la importancia de los árboles y su papel en la mitigación del cambio climático.
+         <br>2-Incremento en la cantidad de árboles plantados en áreas urbanas y rurales.
+         <br>3-Creación de un legado verde para las futuras generaciones.
+         <br>4-Recuerda que cada árbol cuenta. Juntos, podemos ser guardianes de nuestro planeta y asegurar un futuro sostenible para todos. 🌳🌎💚
+         </p>
+    </div>
+</body>
+</html>

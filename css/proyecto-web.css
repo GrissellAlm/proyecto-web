@@ -1,0 +1,193 @@
+#Inicio {
+    background-image: url(/img/362184-admin.jpg);
+    background-size: none;
+    margin: 0;
+	padding: 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+h1 {
+    font-family: "Protest Guerrilla", sans-serif;      
+    font-size: 40.7px;
+    margin: 20px;
+    padding: 40px;
+    line-height: 3.5em;
+    color: white;
+}
+/*
+*Encabezado
+*/
+#main-header {
+	background: transparent;
+	color: transparent;
+	height: 50px;
+}	
+#main-header a {
+	color: white;
+}
+/*
+* Encabezado
+*/
+
+#logo-header {
+    float: left;
+    padding: 15px 0 0 30px;
+    text-decoration: none;
+}
+#logo-header:hover {
+    color: rgb(35, 58, 35);
+}
+        
+#logo-header .site-name {
+    display: block;
+    font-weight: 100;
+    font-size: 2.6em;
+}
+        
+#logo-header .site-desc {
+    display: block;
+    font-weight: 700;
+    font-size: 0.6em;
+    color: transparent;
+}  
+/*
+ * Navegación
+ */
+nav {
+    float: right;
+}
+nav ul {
+    margin: 5.9px;
+    padding: 0;
+    list-style: none;
+    padding-right: 10px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background: rgb(35, 58, 35);
+}
+#imagen {
+    padding: 110px;
+}
+/*
+ * Animacion de imagen
+ */
+.slider_img{
+    opacity: 0;
+    transition: .15s;
+    position: absolute;
+    padding-right: 100px;
+    width: 500px;
+    height: 400px;
+    margin: 15px;
+    padding: 5px;
+}
+.img-responsive var{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute; 
+}
+/*
+ * Pag. Nosotros
+ */
+#nosotros {
+    background-image: url(/img/Captura\ de\ pantalla\ \(130\).png);
+    background-size: none;
+    margin: 0;
+	padding: 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+p{
+    margin: 40px;
+    color: white
+}
+#container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+#text-1{
+    color:rgb(45, 106, 45) ;
+}
+#text-2{
+    color: rgb(45, 106, 45);
+}
+#container > div {
+    width: 50%;
+}
+#servicios{
+    background-image: url(/img/bosquess.png);
+}
+/*
+ * Pag. Contacto
+ */
+#contacto{
+    background-image: url(/img/boss-2.png);
+}
+#contenedor-2 {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px;
+}
+#contenedor-2 > div {
+    width: 50%;
+}
+#form{
+    text-align: center;
+    margin: 50px;
+}
+.form-floating{
+    text-align: center;
+    color: white;
+}
+#textarea-1{
+    text-align: center;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.slider_img1{
+    opacity: 0;
+    transition: .15s;
+    position: absolute;
+    padding-right: 100px;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    padding: 5px;
+}
+a{
+    color: rgb(75, 133, 75);
+}
+img{
+    padding-right: 100px;
+}
+#proyecto{
+    text-align: center;
+}
